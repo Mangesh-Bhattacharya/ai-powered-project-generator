@@ -88,6 +88,12 @@ st.markdown("""
         padding-left: 1rem;
         margin: 0.5rem 0;
     }
+    .learning-outcome-item {
+        padding: 1rem;
+        margin: 0.5rem 0;
+        border-radius: 8px;
+        border-left: 4px solid #667eea;
+    }
     .metric-card {
         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         padding: 1.5rem;
@@ -380,7 +386,7 @@ if st.session_state.selected_project:
         
         for idx, outcome in enumerate(project['learning_outcomes'], 1):
             st.markdown(f"""
-            <div style='background: #f8f9fa; padding: 1rem; margin: 0.5rem 0; border-radius: 8px; border-left: 4px solid #667eea;'>
+            <div class="learning-outcome-item">
                 <strong>{idx}.</strong> {outcome}
             </div>
             """, unsafe_allow_html=True)
@@ -508,7 +514,7 @@ else:
     
     Discover your next tech project tailored to your experience level and interests. Our database contains **40+ curated projects** across four cutting-edge domains.
     
-    ### 🎯 How It Works
+    ### 🚀 How It Works
     
     1. **Select your domain** - Choose from Cybersecurity, Data Analytics, AI/ML, or Cloud Security
     2. **Set your experience level** - Beginner, Intermediate, or Advanced
