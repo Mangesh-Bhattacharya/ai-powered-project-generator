@@ -2,6 +2,9 @@
 
 An intelligent project idea generator that helps developers discover and plan their next tech project in **Cybersecurity**, **Data Analytics**, **AI/ML**, and **Cloud Security**. Features an interactive Streamlit dashboard with 40+ curated, experience-based project ideas.
 
+<img width="1901" height="937" alt="Screenshot 2025-12-08 145000" src="https://github.com/user-attachments/assets/c3b16049-5e7d-4c58-b4dd-4d4b3705fedd" />
+
+
 ## ✨ Features
 
 ### 🎯 Smart Project Discovery
